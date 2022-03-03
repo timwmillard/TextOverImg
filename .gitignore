@@ -1,2 +1,4 @@
 images/inspirational_image.png
-images
+images/*
+!images/.gitkeep
+/TextOverImg

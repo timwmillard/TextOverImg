@@ -4,6 +4,20 @@ The app returns the image with the text placed over it. Users can login to remov
 
 The login is hard coded to username: test, password: test for now.
 
+## How to build
+
+```sh
+cd frontend
+npm run build
+cd ..
+go build .
+```
+
+## How to run
+```sh
+./TextOverImg
+```
+
 ### Example queries to check endpoints:
 
 curl -X POST -d "{\"url\": \"image-url-here.jpg\", \"text\": \"Inpsiration Quote Here!\"}" http://localhost:3000/image
